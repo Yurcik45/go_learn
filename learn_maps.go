@@ -10,7 +10,7 @@ type User struct {
 }
 
 func print_space() {
-  fmt.Println("")
+  fmt.Println("--------------------------------------------------------------------")
 }
 
 func main() {
@@ -63,4 +63,19 @@ func main() {
   users[0] = User{ name: "yurcik", age: 24 }
   fmt.Println("use maps users: ", users)
   fmt.Println("use maps Users[0]: ", users[0])
+  print_space()
+
+  {
+    // create an empty map without make function
+    some_params_f := map[string]string{}
+    fmt.Println("params use map: ", some_params_f)
+    print_space()
+  }
+
+  {
+    // create an empty map with make function
+    map_blyat := make(map[string]string)
+    fmt.Println("params use map: ", map_blyat)
+    print_space()
+  }
 }
