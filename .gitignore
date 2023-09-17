@@ -1,1 +1,3 @@
 *.swp
+go.mod
+go.sum
