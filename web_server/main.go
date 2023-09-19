@@ -1,14 +1,15 @@
 package main
 
 import (
-  "fmt"
-  "log"
-  "io"
-  "net"
+	"fmt"
+	"io"
+	"log"
+	"net"
+	"net/http"
 )
 
 func init_server() {
-  // Listen on TCP port 2000 on all available unicast and
+	// Listen on TCP port 2000 on all available unicast and
 	// anycast IP addresses of the local system.
 	l, err := net.Listen("tcp", "localhost:3000")
 	if err != nil {
@@ -33,8 +34,20 @@ func init_server() {
 	}
 }
 
+func init_serve2() {
+	http.HandleFunc("/hello", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "Hello!")
+	})
+
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "root path page")
+	})
+	if err := http.ListenAndServe(":8080", nil); err != nil {
+		log.Fatal(err)
+	}
+}
 
 func main() {
-  fmt.Println("I'm work")
-  init_server()
+	fmt.Println("I'm work")
+	init_serve2()
 }
