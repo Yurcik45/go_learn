@@ -49,7 +49,7 @@ func insertToBigQuery(data RequestData) error {
 		{Name: "timestamp", Type: bigquery.TimestampFieldType},
 		{Name: "user_id", Type: bigquery.StringFieldType},
 		{Name: "event_name", Type: bigquery.StringFieldType},
-		{Name: "event_data", Type: bigquery.JSONFieldType},
+		{Name: "event_data", Type: bigquery.StringFieldType},
 	}
 
 	// Create a BigQuery dataset reference.

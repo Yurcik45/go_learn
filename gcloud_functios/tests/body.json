@@ -1,0 +1,1 @@
+{ "timestamp": 1234567890, "user_id": 987654321.123456, "event_name": "default_event", "event_data": {"default_key": "global default_value"} }
