@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "yuras-event-server-side",
+  "private_key_id": "d47244471b4460cc0dda8ef9b4d361a2c9fb0c20",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHepqLOTzpryku\njYIu4XbjmN3RYenwtIWJ+hxwt2dp9RU52+dFqwwDH0p51PX+HojffF+x189PEgGe\nEqwRKubntUTmiPdLs4QRIEviWktUuploQl37nIqtaW392WMP9ZZN+9k8l/Ku3UP2\nOauh+3AYKJrDJ/2ZPen7GNh/6MxRvCA6A19bYhM6Z/QfiErKd9mSqIRZpYoNK2j9\nQv902pATG0PB2NXMJMU8Ddiaq3RhlO9xO/+AANo2rmCsZZ3jcG2Eq8oQ6b14tHoC\nxwoYyB1p9sO+GtqpDO0UvDaq0nF8lPnUIQReZMhR6092TXJdBni0CJ1YKY9hNw1v\nEeKf+4mrAgMBAAECggEAHc5XhkMMs3wtQpv5XkjpK1PdnRosyv8mTvoUwtDcvmvU\n+pq9oV7QAi1sQu0LvqdQW1hpshiljNKLdFOk60HGU8v1mh7QGLsfmjGBtTY5uFTT\ndE0qXtzCqeuteDdBwpI3HbrqeE/Z/r/oFkQCvcbktm9mxI9WqM2kBxVs0Bv4X6Ph\na1FECjNO2gubE1TPzF/hYLbdwT+Ry1NKeiIdhkTLmXG4HUEl4hsPplIJpoQtl7zb\njEx907UcbC8dTuwRrU9Z289oQobpBLnOBjZxoXmGIGDsHl9Ht3nOU6trzEicBgjX\nTisRJnA4+cs+yxZsYDbuLSp2Iy4a+V5BdSCkhb02uQKBgQDuARtTeAh6cHRgdARs\nPL9RW7+oyCwn3z6LK3+8HZoZxxs0E3YTMn6uq6t7wHTWNUPqMiurmRl2CARH/C4d\nY2vJq+yXrFHkvwz33fv+K/chZTGWzJDbIW3pwHdZCtOmjFfXWnHVpxp95Et+R13P\n6JOYGDMY+MWAylW44hg+6qrYuQKBgQDWj8k6bCumbQ4scrk8XGX+Zu1KJdmqQcPh\nWcDd7JhlTErke0Hh5i6pqFoaOhhk8xDYq1udXsFt2Oc0YqRsAe6tC2rEmKobHESu\n8Di0iHA3KyIL9QTGHT80wItpd/yWtxGcliTKAIS/XO0yTpNrBCVUITWR0bfxsIhz\nUsrhOXw7gwKBgEQv3PxU71jkzvKzSnEYFlfgyVA5ySzDMM/+bmIeuP+Zo5mP2cw2\nM0UnucGCqfaU3BhEt246NqkyMsfM4Albao4ky2vI2s2GTtjUqFVxkyPmMgbaJMYj\nFbJaidbg2zJkEuaH6wUjEtvuhBJxr9bY8zAn/ruwyiTT0ytc20VrRfdBAoGBAIG6\ndDevuYCpxX0YbGlTkJOOFgDT+9RWaSHyy4sjB02QIGQfJkl4jFQmJzxeTeuTj2cB\nzKXM6fUJxVlGHxXy4SWdlpOBnrA/mkOPmSmGqRqiKLbEEXvbqSCzHlfJpV5XF/3u\nRhYg1CKEBCJ7oeR9oDhK0AH3pFksnIPl1ibxQ+0TAoGBAMXuDmwLOQY7yr/5HuCc\nBGBgSFt14tzDjIjb3dVSSpUyvk0BBh5uPdRuHm2ddmSitpv91CC3gSRX1eWMC7Q4\nsgkb8ILlqF1vgQ2JDECUSGVjLr9ZbGqnXb3y54oL5cea7UtFf81qFT7Hxl4KWRhX\nPwdI0S48lV9yxPfBK/OCxp9u\n-----END PRIVATE KEY-----\n",
+  "client_email": "yuras-event-server-side@appspot.gserviceaccount.com",
+  "client_id": "113136079690310273100",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yuras-event-server-side%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
