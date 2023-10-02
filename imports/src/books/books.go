@@ -2,6 +2,6 @@ package books
 
 import "fmt"
 
-func print_books() {
+func Print_books() {
   fmt.Println("books")
 }
