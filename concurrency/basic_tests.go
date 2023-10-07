@@ -8,11 +8,20 @@ func test_pr[T string | int](text T) {
 }
 
 func main() {
+  go func(text string) {
+    fmt.Println(text)
+  }("test 1")
+
   go test_pr(1)
   go test_pr(2)
   go test_pr(3)
   go test_pr(4)
-  go test_pr(5)
+  go test_pr("five")
+  go test_pr(6)
+
+  go func(text string) {
+    fmt.Println(text)
+  }("test 2")
 
   time.Sleep(time.Millisecond)
 }
